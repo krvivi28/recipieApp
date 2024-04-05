@@ -1,0 +1,51 @@
+<div class="w-[300px] h-[300px]">
+  <mat-card>
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{ recipe.title }}</mat-card-title>
+    </mat-card-header>
+    <div class="image-container">
+      <img mat-card-image [src]="recipe.imageUrl" alt="Photo of a Shiba Inu" />
+    </div>
+    <mat-card-content>
+      <p>
+        {{ recipe.description }}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <div class="w-full flex items-center justify-between">
+        <div>
+          <button mat-button>VIEW</button> <button mat-button>SHARE</button>
+        </div>
+
+        <!-- <span class="relative flex h-3 w-3">
+          <span
+          
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"
+          ></span>
+          <span
+            class='relative inline-flex rounded-full h-3 w-3'
+          ></span>
+        </span> -->
+
+        <span class="relative flex h-3 w-3">
+          <span
+            [ngClass]="{
+              'bg-green-600': isVeg(recipe),
+              'bg-red-600': !isVeg(recipe)
+            }"
+            class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"
+          ></span>
+          <span
+            [matTooltip]="isVeg(recipe) ? 'veg' : 'non-veg'"
+            [ngClass]="{
+              'bg-green-600': isVeg(recipe),
+              'bg-red-600': !isVeg(recipe)
+            }"
+            class="relative inline-flex rounded-full h-3 w-3"
+          ></span>
+        </span>
+      </div>
+    </mat-card-actions>
+  </mat-card>
+</div>

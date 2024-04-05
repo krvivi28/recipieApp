@@ -1,0 +1,8 @@
+<div class="">
+  <app-search-home></app-search-home>
+</div>
+<div class="flex flex-wrap items-centern justify-around p-5 h-screen bg-black">
+  @for (recipe of allRecepies; track $index) {
+  <app-recipe-card [recipe]="recipe"></app-recipe-card>
+  }
+</div>

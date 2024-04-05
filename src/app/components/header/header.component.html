@@ -1,0 +1,200 @@
+<mat-toolbar color="primary">
+  <button
+    mat-icon-button
+    class="example-icon"
+    aria-label="Example icon-button with menu icon"
+  >
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Cubastion-Eats</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button color="accent" (click)="openDialog()">
+    Add New Recipe <mat-icon>add</mat-icon>
+  </button>
+</mat-toolbar>
+
+<ng-template #addNewRecipeForm>
+  <h2 mat-dialog-title>Add New Recipie</h2>
+  <mat-dialog-content class="mat-typography">
+    <div class="">
+      <form [formGroup]="recipieForm">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="">
+            <mat-form-field>
+              <mat-label>Title</mat-label>
+              <input formControlName="title" matInput name="title" />
+            </mat-form-field>
+          </div>
+
+          <div class="">
+            <mat-form-field>
+              <mat-label>Cateogy</mat-label>
+              <select formControlName="category" matNativeControl required>
+                @for (category of appService.recipieCategories; track $index) {
+                <option [value]="category.key">{{ category.value }}</option>
+                }
+              </select>
+            </mat-form-field>
+          </div>
+
+          <div class="col-span-2">
+            <mat-form-field>
+              <mat-label>Description</mat-label>
+              <textarea
+                formControlName="description"
+                matInput
+                name="description"
+              ></textarea>
+            </mat-form-field>
+          </div>
+
+          <div class="">
+            <mat-form-field>
+              <mat-label>Image Url</mat-label>
+              <input formControlName="imageUrl" matInput name="title" />
+            </mat-form-field>
+          </div>
+
+          <div class="">
+            <div class="example-label-container">
+              <label id="example-name-label" class="example-name-label"
+                >Servings</label
+              >
+              <label class="example-value-label">{{ slider.value }}</label>
+            </div>
+            <mat-slider
+              style="width: 80%"
+              class="example-margin"
+              [max]="100"
+              [min]="1"
+              [step]="1"
+              [discrete]="false"
+              [showTickMarks]="false"
+            >
+              <input matSliderThumb formControlName="servings" #slider />
+            </mat-slider>
+          </div>
+
+          <div formArrayName="ingredients" class="col-span-2">
+            ingredients
+            <div>
+              <button
+                (click)="addNewIngredient()"
+                mat-mini-fab
+                color="accent"
+                aria-label="Example icon button with a plus one icon"
+              >
+                <mat-icon>add</mat-icon>
+              </button>
+            </div>
+            @for (item of ingredientsFormArray.controls; track $index) {
+            <div [formGroupName]="$index" class="grid grid-cols-3 gap-4">
+              <div>
+                <mat-form-field>
+                  <mat-label>Name</mat-label>
+                  <input matInput name="title" formControlName="name" />
+                </mat-form-field>
+              </div>
+              <div>
+                <mat-form-field>
+                  <mat-label>Quantity</mat-label>
+                  <input matInput name="title" formControlName="quantity" />
+                </mat-form-field>
+              </div>
+              <div>
+                <mat-form-field>
+                  <mat-label>Notes</mat-label>
+                  <input matInput name="title" formControlName="notes" />
+                </mat-form-field>
+              </div>
+            </div>
+            }
+          </div>
+
+          <div formArrayName="steps" class="col-span-2">
+            Instructions
+            <div>
+              <button (click)="addNewInstruction()" mat-mini-fab color="accent">
+                <mat-icon>add</mat-icon>
+              </button>
+            </div>
+            @for (item of instructionsFormArray.controls; track $index) {
+            <div [formGroupName]="$index" class="grid grid-cols-1 gap-4">
+              <div>
+                <mat-form-field>
+                  <mat-label>Step-{{ $index + 1 }}</mat-label>
+                  <input matInput name="title" formControlName="step" />
+                </mat-form-field>
+              </div>
+            </div>
+            }
+          </div>
+
+          <div formGroupName="chefDetails" class="col-span-2">
+            chef details
+            <div class="grid grid-cols-3 gap-4">
+              <div>
+                <mat-form-field>
+                  <mat-label>Name</mat-label>
+                  <input matInput name="title" formControlName="name" />
+                </mat-form-field>
+              </div>
+              <div>
+                <mat-form-field>
+                  <mat-label>Experience</mat-label>
+                  <input matInput name="title" formControlName="experience" />
+                </mat-form-field>
+              </div>
+              <div>
+                <mat-form-field>
+                  <mat-label>DOB</mat-label>
+                  <input matInput name="title" formControlName="dateOfBirth" />
+                </mat-form-field>
+              </div>
+
+              <div class="col-span-3">
+                <div class="grid grid-cols-3 gap-4" formGroupName="contact">
+                  <div>
+                    <mat-form-field>
+                      <mat-label>Email</mat-label>
+                      <input matInput name="title" formControlName="email" />
+                    </mat-form-field>
+                  </div>
+                  <div>
+                    <mat-form-field>
+                      <mat-label>Mobile</mat-label>
+                      <input matInput name="title" formControlName="mobile" />
+                    </mat-form-field>
+                  </div>
+                  <div>
+                    <mat-form-field>
+                      <mat-label>Country</mat-label>
+                      <select
+                        matNativeControl
+                        required
+                        formControlName="country"
+                      >
+                        @for (country of appService.countriesList; track $index)
+                        {
+                        <option [value]="country.code">
+                          {{ country.name }}
+                        </option>
+                        }
+                      </select>
+                    </mat-form-field>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button mat-button [mat-dialog-close]="true" cdkFocusInitial>
+      Install
+    </button>
+  </mat-dialog-actions>
+</ng-template>
