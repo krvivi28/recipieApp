@@ -7,12 +7,10 @@
   @if (!isSearching) { @for (recipe of appService.allRecepies.reverse(); track
   $index) {
   <app-recipe-card
-    style="min-height: 320px"
     [recipe]="recipe"
   ></app-recipe-card>
   } } @else { @for (recipe of appService.filteredRecipies; track $index) {
   <app-recipe-card
-    style="min-height: 320px"
     [recipe]="recipe"
   ></app-recipe-card>
   } }

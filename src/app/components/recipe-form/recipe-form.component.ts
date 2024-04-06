@@ -55,10 +55,10 @@ export class RecipeFormComponent implements OnInit {
     if (this.recipieForm.valid) {
       if (this.data) {
         this.updateRecipie();
-        this.closeDialog();
       } else {
         this.postNewRecipie();
       }
+      this.closeDialog();
     } else {
       this.toaster.warning("Please enter requied input details");
     }
