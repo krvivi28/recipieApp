@@ -1,17 +1,18 @@
 <div class="">
   <app-search-home></app-search-home>
 </div>
+@if (appService.allRecepies.length===0) {
+<div class="bg-gray-950 h-[340px] flex items-center justify-center">
+  <h1 class="text-pink-700 text-2xl">No Recipes available! Pls Add a new recepie</h1>
+</div>
+}
 <div
   class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4 bg-slate-950"
 >
   @if (!isSearching) { @for (recipe of appService.allRecepies.reverse(); track
   $index) {
-  <app-recipe-card
-    [recipe]="recipe"
-  ></app-recipe-card>
+  <app-recipe-card [recipe]="recipe"></app-recipe-card>
   } } @else { @for (recipe of appService.filteredRecipies; track $index) {
-  <app-recipe-card
-    [recipe]="recipe"
-  ></app-recipe-card>
+  <app-recipe-card [recipe]="recipe"></app-recipe-card>
   } }
 </div>

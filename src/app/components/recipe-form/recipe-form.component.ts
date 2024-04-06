@@ -8,6 +8,7 @@ import {
   FormGroup,
   FormsModule,
   ReactiveFormsModule,
+  Validators,
 } from "@angular/forms";
 import { LoaderService } from "../../services/loader.service";
 import { ToasterService } from "../../services/toaster.service";
@@ -66,7 +67,7 @@ export class RecipeFormComponent implements OnInit {
 
   initRecipieForm() {
     this.recipieForm = this.fb.group({
-      title: ["", []],
+      title: ["", [Validators.required]],
       description: ["", []],
       category: ["", []],
       imageUrl: ["", []],
