@@ -1,5 +1,13 @@
 .image-container {
   width: 300px;
   height: 190px;
-  overflow: hidden; 
+  overflow: hidden;
+}
+.mdc-card {
+  min-height: 350px;
+}
+.mat-mdc-card-header {
+  padding: 0 !important;
+  justify-content: flex-start;
+  align-items: center;
 }

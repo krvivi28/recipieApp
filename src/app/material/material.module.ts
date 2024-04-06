@@ -11,6 +11,9 @@ import { MatFormFieldModule } from "@angular/material/form-field";
 import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
 import { MatSliderModule } from "@angular/material/slider";
 import { MatTooltipModule } from "@angular/material/tooltip";
+import { MatMenuModule } from "@angular/material/menu";
+import { MatSnackBarModule } from "@angular/material/snack-bar";
+import { MatAutocompleteModule } from "@angular/material/autocomplete";
 
 @NgModule({
   declarations: [],
@@ -27,6 +30,9 @@ import { MatTooltipModule } from "@angular/material/tooltip";
     MatProgressSpinnerModule,
     MatSliderModule,
     MatTooltipModule,
+    MatMenuModule,
+    MatSnackBarModule,
+    MatAutocompleteModule,
   ],
   exports: [
     MatButtonModule,
@@ -40,6 +46,9 @@ import { MatTooltipModule } from "@angular/material/tooltip";
     MatProgressSpinnerModule,
     MatSliderModule,
     MatTooltipModule,
+    MatMenuModule,
+    MatSnackBarModule,
+    MatAutocompleteModule,
   ],
 })
 export class MaterialModule {}

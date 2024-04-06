@@ -1,407 +1,1373 @@
 {
   "recipies": [
     {
-      "id": 1,
-      "title": "Spaghetti Carbonara",
-      "description": "Classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
-      "category": "veg",
-      "origin": "italy",
-      "imageUrl": "https://st2.depositphotos.com/1326558/7226/i/450/depositphotos_72263189-stock-photo-penne-pasta-in-tomato-sauce.jpg",
+      "id": "3bac",
+      "title": "Soulful Comfort: Quick and Easy Chana Dal in the Instant Pot",
+      "description": "This is an easy Pakistani Chana Dal made in the Instant Pot (Pressure Cooker). Chana Dal (or Split Chickpeas) are cooked with spices and given a simple tadka for an easy dinner. Naturally gluten-free and Vegan optional. Servings: 4",
+      "category": "MEA",
+      "imageUrl": "https://media.islamicity.org/wp-content/uploads/2024/04/Instant-Pot-Pakistani-Chana-Dal-3-960x540-1.jpeg?&v=03132021",
       "servings": 4,
       "ingredients": [
         {
-          "name": "Spaghetti",
-          "quantity": "400g",
-          "notes": "or any other pasta of your choice"
-        },
-        { "name": "Pancetta or bacon", "quantity": "200g", "notes": "diced" },
-        { "name": "Eggs", "quantity": "4", "notes": "large" },
-        {
-          "name": "Parmesan cheese",
-          "quantity": "100g",
-          "notes": "grated, plus extra for serving"
-        },
-        {
-          "name": "Black pepper",
-          "quantity": "1 tsp",
-          "notes": "freshly ground"
-        },
-        { "name": "Salt", "quantity": "To taste" }
+          "name": "a",
+          "quantity": "b",
+          "notes": "b"
+        }
       ],
-      "instructions": [
-        "Bring a large pot of salted water to a boil.",
-        "Cook spaghetti according to package instructions until al dente. Reserve 1 cup of pasta cooking water, then drain the spaghetti.",
-        "While spaghetti is cooking, heat a large skillet over medium heat. Add diced pancetta or bacon and cook until crispy. Remove from heat and set aside.",
-        "In a bowl, whisk together eggs, grated Parmesan cheese, and black pepper.",
-        "Add cooked spaghetti to the skillet with the pancetta or bacon. Pour the egg mixture over the spaghetti and quickly toss to coat, using tongs or a fork. The heat from the spaghetti will cook the eggs and melt the cheese. If the sauce is too thick, add some of the reserved pasta cooking water to loosen it.",
-        "Serve immediately with additional grated Parmesan cheese and black pepper on top."
+      "steps": [
+        {
+          "step": "b"
+        }
       ],
-      "notes": "Be careful not to scramble the eggs when mixing them with the hot spaghetti.",
       "chefDetails": {
-        "name": "Ankur",
-        "age": 30,
-        "experience": 10,
-        "dateOfBirth": "1990-10-28",
-        "contact": { "email": "krvivi28@gmail.com", "mobile": "7839358367" }
+        "name": "b",
+        "age": "",
+        "experience": "b",
+        "dateOfBirth": "b",
+        "contact": {
+          "email": "b",
+          "mobile": "b",
+          "country": "BS"
+        }
       },
-      "published": "04 Mar 2024"
+      "published": ""
     },
     {
-      "id": 1,
-      "title": "Spaghetti Carbonara",
-      "description": "Classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
-      "category": "NonVeg",
-      "origin": "italy",
-      "imageUrl": "https://www.kitchensanctuary.com/wp-content/uploads/2023/07/Pesto-Pasta-square-FS.jpg",
-      "servings": 4,
+      "id": "ef89",
+      "title": "Pharaoh's Delight: Decadent Egyptian Date Cake",
+      "description": "Easy Date Cake topped with caramel and chopped walnuts. It is super moist and made in the blender, then in a bowl and a spoon. So easy to make. Servings: 10",
+      "category": "CON",
+      "imageUrl": "https://media.islamicity.org/wp-content/uploads/2024/03/date-cake-I-2.jpg?&v=03132021",
+      "servings": 10,
       "ingredients": [
         {
-          "name": "Spaghetti",
-          "quantity": "400g",
-          "notes": "or any other pasta of your choice"
-        },
-        { "name": "Pancetta or bacon", "quantity": "200g", "notes": "diced" },
-        { "name": "Eggs", "quantity": "4", "notes": "large" },
-        {
-          "name": "Parmesan cheese",
-          "quantity": "100g",
-          "notes": "grated, plus extra for serving"
-        },
-        {
-          "name": "Black pepper",
-          "quantity": "1 tsp",
-          "notes": "freshly ground"
-        },
-        { "name": "Salt", "quantity": "To taste" }
+          "name": "a",
+          "quantity": "a",
+          "notes": "a"
+        }
       ],
-      "instructions": [
-        "Bring a large pot of salted water to a boil.",
-        "Cook spaghetti according to package instructions until al dente. Reserve 1 cup of pasta cooking water, then drain the spaghetti.",
-        "While spaghetti is cooking, heat a large skillet over medium heat. Add diced pancetta or bacon and cook until crispy. Remove from heat and set aside.",
-        "In a bowl, whisk together eggs, grated Parmesan cheese, and black pepper.",
-        "Add cooked spaghetti to the skillet with the pancetta or bacon. Pour the egg mixture over the spaghetti and quickly toss to coat, using tongs or a fork. The heat from the spaghetti will cook the eggs and melt the cheese. If the sauce is too thick, add some of the reserved pasta cooking water to loosen it.",
-        "Serve immediately with additional grated Parmesan cheese and black pepper on top."
+      "steps": [
+        {
+          "step": "a"
+        }
       ],
-      "notes": "Be careful not to scramble the eggs when mixing them with the hot spaghetti.",
       "chefDetails": {
-        "name": "Ankur",
-        "age": 30,
-        "experience": 10,
-        "dateOfBirth": "1990-10-28",
-        "contact": { "email": "krvivi28@gmail.com", "mobile": "7839358367" }
+        "name": "a",
+        "age": "",
+        "experience": "a",
+        "dateOfBirth": "a",
+        "contact": {
+          "email": "a",
+          "mobile": "a",
+          "country": "AL"
+        }
       },
-      "published": "04 Mar 2024"
-    },
-    {
-      "id": 1,
-      "title": "Spaghetti Carbonara",
-      "description": "Classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
-      "category": "veg",
-      "origin": "italy",
-      "imageUrl": "https://www.licious.in/blog/wp-content/uploads/2020/12/Tandoori-Fish-750x750.jpg",
-      "servings": 4,
-      "ingredients": [
-        {
-          "name": "Spaghetti",
-          "quantity": "400g",
-          "notes": "or any other pasta of your choice"
-        },
-        { "name": "Pancetta or bacon", "quantity": "200g", "notes": "diced" },
-        { "name": "Eggs", "quantity": "4", "notes": "large" },
-        {
-          "name": "Parmesan cheese",
-          "quantity": "100g",
-          "notes": "grated, plus extra for serving"
-        },
-        {
-          "name": "Black pepper",
-          "quantity": "1 tsp",
-          "notes": "freshly ground"
-        },
-        { "name": "Salt", "quantity": "To taste" }
-      ],
-      "instructions": [
-        "Bring a large pot of salted water to a boil.",
-        "Cook spaghetti according to package instructions until al dente. Reserve 1 cup of pasta cooking water, then drain the spaghetti.",
-        "While spaghetti is cooking, heat a large skillet over medium heat. Add diced pancetta or bacon and cook until crispy. Remove from heat and set aside.",
-        "In a bowl, whisk together eggs, grated Parmesan cheese, and black pepper.",
-        "Add cooked spaghetti to the skillet with the pancetta or bacon. Pour the egg mixture over the spaghetti and quickly toss to coat, using tongs or a fork. The heat from the spaghetti will cook the eggs and melt the cheese. If the sauce is too thick, add some of the reserved pasta cooking water to loosen it.",
-        "Serve immediately with additional grated Parmesan cheese and black pepper on top."
-      ],
-      "notes": "Be careful not to scramble the eggs when mixing them with the hot spaghetti.",
-      "chefDetails": {
-        "name": "Ankur",
-        "age": 30,
-        "experience": 10,
-        "dateOfBirth": "1990-10-28",
-        "contact": { "email": "krvivi28@gmail.com", "mobile": "7839358367" }
-      },
-      "published": "04 Mar 2024"
+      "published": ""
     }
   ],
   "countries": [
-    { "name": "Afghanistan", "code": "AF" },
-    { "name": "Åland Islands", "code": "AX" },
-    { "name": "Albania", "code": "AL" },
-    { "name": "Algeria", "code": "DZ" },
-    { "name": "American Samoa", "code": "AS" },
-    { "name": "AndorrA", "code": "AD" },
-    { "name": "Angola", "code": "AO" },
-    { "name": "Anguilla", "code": "AI" },
-    { "name": "Antarctica", "code": "AQ" },
-    { "name": "Antigua and Barbuda", "code": "AG" },
-    { "name": "Argentina", "code": "AR" },
-    { "name": "Armenia", "code": "AM" },
-    { "name": "Aruba", "code": "AW" },
-    { "name": "Australia", "code": "AU" },
-    { "name": "Austria", "code": "AT" },
-    { "name": "Azerbaijan", "code": "AZ" },
-    { "name": "Bahamas", "code": "BS" },
-    { "name": "Bahrain", "code": "BH" },
-    { "name": "Bangladesh", "code": "BD" },
-    { "name": "Barbados", "code": "BB" },
-    { "name": "Belarus", "code": "BY" },
-    { "name": "Belgium", "code": "BE" },
-    { "name": "Belize", "code": "BZ" },
-    { "name": "Benin", "code": "BJ" },
-    { "name": "Bermuda", "code": "BM" },
-    { "name": "Bhutan", "code": "BT" },
-    { "name": "Bolivia", "code": "BO" },
-    { "name": "Bosnia and Herzegovina", "code": "BA" },
-    { "name": "Botswana", "code": "BW" },
-    { "name": "Bouvet Island", "code": "BV" },
-    { "name": "Brazil", "code": "BR" },
-    { "name": "British Indian Ocean Territory", "code": "IO" },
-    { "name": "Brunei Darussalam", "code": "BN" },
-    { "name": "Bulgaria", "code": "BG" },
-    { "name": "Burkina Faso", "code": "BF" },
-    { "name": "Burundi", "code": "BI" },
-    { "name": "Cambodia", "code": "KH" },
-    { "name": "Cameroon", "code": "CM" },
-    { "name": "Canada", "code": "CA" },
-    { "name": "Cape Verde", "code": "CV" },
-    { "name": "Cayman Islands", "code": "KY" },
-    { "name": "Central African Republic", "code": "CF" },
-    { "name": "Chad", "code": "TD" },
-    { "name": "Chile", "code": "CL" },
-    { "name": "China", "code": "CN" },
-    { "name": "Christmas Island", "code": "CX" },
-    { "name": "Cocos (Keeling) Islands", "code": "CC" },
-    { "name": "Colombia", "code": "CO" },
-    { "name": "Comoros", "code": "KM" },
-    { "name": "Congo", "code": "CG" },
-    { "name": "Congo, The Democratic Republic of the", "code": "CD" },
-    { "name": "Cook Islands", "code": "CK" },
-    { "name": "Costa Rica", "code": "CR" },
-    { "name": "Cote D'Ivoire", "code": "CI" },
-    { "name": "Croatia", "code": "HR" },
-    { "name": "Cuba", "code": "CU" },
-    { "name": "Cyprus", "code": "CY" },
-    { "name": "Czech Republic", "code": "CZ" },
-    { "name": "Denmark", "code": "DK" },
-    { "name": "Djibouti", "code": "DJ" },
-    { "name": "Dominica", "code": "DM" },
-    { "name": "Dominican Republic", "code": "DO" },
-    { "name": "Ecuador", "code": "EC" },
-    { "name": "Egypt", "code": "EG" },
-    { "name": "El Salvador", "code": "SV" },
-    { "name": "Equatorial Guinea", "code": "GQ" },
-    { "name": "Eritrea", "code": "ER" },
-    { "name": "Estonia", "code": "EE" },
-    { "name": "Ethiopia", "code": "ET" },
-    { "name": "Falkland Islands (Malvinas)", "code": "FK" },
-    { "name": "Faroe Islands", "code": "FO" },
-    { "name": "Fiji", "code": "FJ" },
-    { "name": "Finland", "code": "FI" },
-    { "name": "France", "code": "FR" },
-    { "name": "French Guiana", "code": "GF" },
-    { "name": "French Polynesia", "code": "PF" },
-    { "name": "French Southern Territories", "code": "TF" },
-    { "name": "Gabon", "code": "GA" },
-    { "name": "Gambia", "code": "GM" },
-    { "name": "Georgia", "code": "GE" },
-    { "name": "Germany", "code": "DE" },
-    { "name": "Ghana", "code": "GH" },
-    { "name": "Gibraltar", "code": "GI" },
-    { "name": "Greece", "code": "GR" },
-    { "name": "Greenland", "code": "GL" },
-    { "name": "Grenada", "code": "GD" },
-    { "name": "Guadeloupe", "code": "GP" },
-    { "name": "Guam", "code": "GU" },
-    { "name": "Guatemala", "code": "GT" },
-    { "name": "Guernsey", "code": "GG" },
-    { "name": "Guinea", "code": "GN" },
-    { "name": "Guinea-Bissau", "code": "GW" },
-    { "name": "Guyana", "code": "GY" },
-    { "name": "Haiti", "code": "HT" },
-    { "name": "Heard Island and Mcdonald Islands", "code": "HM" },
-    { "name": "Holy See (Vatican City State)", "code": "VA" },
-    { "name": "Honduras", "code": "HN" },
-    { "name": "Hong Kong", "code": "HK" },
-    { "name": "Hungary", "code": "HU" },
-    { "name": "Iceland", "code": "IS" },
-    { "name": "India", "code": "IN" },
-    { "name": "Indonesia", "code": "ID" },
-    { "name": "Iran, Islamic Republic Of", "code": "IR" },
-    { "name": "Iraq", "code": "IQ" },
-    { "name": "Ireland", "code": "IE" },
-    { "name": "Isle of Man", "code": "IM" },
-    { "name": "Israel", "code": "IL" },
-    { "name": "Italy", "code": "IT" },
-    { "name": "Jamaica", "code": "JM" },
-    { "name": "Japan", "code": "JP" },
-    { "name": "Jersey", "code": "JE" },
-    { "name": "Jordan", "code": "JO" },
-    { "name": "Kazakhstan", "code": "KZ" },
-    { "name": "Kenya", "code": "KE" },
-    { "name": "Kiribati", "code": "KI" },
-    { "name": "Korea, Democratic People'S Republic of", "code": "KP" },
-    { "name": "Korea, Republic of", "code": "KR" },
-    { "name": "Kuwait", "code": "KW" },
-    { "name": "Kyrgyzstan", "code": "KG" },
-    { "name": "Lao People'S Democratic Republic", "code": "LA" },
-    { "name": "Latvia", "code": "LV" },
-    { "name": "Lebanon", "code": "LB" },
-    { "name": "Lesotho", "code": "LS" },
-    { "name": "Liberia", "code": "LR" },
-    { "name": "Libyan Arab Jamahiriya", "code": "LY" },
-    { "name": "Liechtenstein", "code": "LI" },
-    { "name": "Lithuania", "code": "LT" },
-    { "name": "Luxembourg", "code": "LU" },
-    { "name": "Macao", "code": "MO" },
-    { "name": "Macedonia, The Former Yugoslav Republic of", "code": "MK" },
-    { "name": "Madagascar", "code": "MG" },
-    { "name": "Malawi", "code": "MW" },
-    { "name": "Malaysia", "code": "MY" },
-    { "name": "Maldives", "code": "MV" },
-    { "name": "Mali", "code": "ML" },
-    { "name": "Malta", "code": "MT" },
-    { "name": "Marshall Islands", "code": "MH" },
-    { "name": "Martinique", "code": "MQ" },
-    { "name": "Mauritania", "code": "MR" },
-    { "name": "Mauritius", "code": "MU" },
-    { "name": "Mayotte", "code": "YT" },
-    { "name": "Mexico", "code": "MX" },
-    { "name": "Micronesia, Federated States of", "code": "FM" },
-    { "name": "Moldova, Republic of", "code": "MD" },
-    { "name": "Monaco", "code": "MC" },
-    { "name": "Mongolia", "code": "MN" },
-    { "name": "Montserrat", "code": "MS" },
-    { "name": "Morocco", "code": "MA" },
-    { "name": "Mozambique", "code": "MZ" },
-    { "name": "Myanmar", "code": "MM" },
-    { "name": "Namibia", "code": "NA" },
-    { "name": "Nauru", "code": "NR" },
-    { "name": "Nepal", "code": "NP" },
-    { "name": "Netherlands", "code": "NL" },
-    { "name": "Netherlands Antilles", "code": "AN" },
-    { "name": "New Caledonia", "code": "NC" },
-    { "name": "New Zealand", "code": "NZ" },
-    { "name": "Nicaragua", "code": "NI" },
-    { "name": "Niger", "code": "NE" },
-    { "name": "Nigeria", "code": "NG" },
-    { "name": "Niue", "code": "NU" },
-    { "name": "Norfolk Island", "code": "NF" },
-    { "name": "Northern Mariana Islands", "code": "MP" },
-    { "name": "Norway", "code": "NO" },
-    { "name": "Oman", "code": "OM" },
-    { "name": "Pakistan", "code": "PK" },
-    { "name": "Palau", "code": "PW" },
-    { "name": "Palestinian Territory, Occupied", "code": "PS" },
-    { "name": "Panama", "code": "PA" },
-    { "name": "Papua New Guinea", "code": "PG" },
-    { "name": "Paraguay", "code": "PY" },
-    { "name": "Peru", "code": "PE" },
-    { "name": "Philippines", "code": "PH" },
-    { "name": "Pitcairn", "code": "PN" },
-    { "name": "Poland", "code": "PL" },
-    { "name": "Portugal", "code": "PT" },
-    { "name": "Puerto Rico", "code": "PR" },
-    { "name": "Qatar", "code": "QA" },
-    { "name": "Reunion", "code": "RE" },
-    { "name": "Romania", "code": "RO" },
-    { "name": "Russian Federation", "code": "RU" },
-    { "name": "RWANDA", "code": "RW" },
-    { "name": "Saint Helena", "code": "SH" },
-    { "name": "Saint Kitts and Nevis", "code": "KN" },
-    { "name": "Saint Lucia", "code": "LC" },
-    { "name": "Saint Pierre and Miquelon", "code": "PM" },
-    { "name": "Saint Vincent and the Grenadines", "code": "VC" },
-    { "name": "Samoa", "code": "WS" },
-    { "name": "San Marino", "code": "SM" },
-    { "name": "Sao Tome and Principe", "code": "ST" },
-    { "name": "Saudi Arabia", "code": "SA" },
-    { "name": "Senegal", "code": "SN" },
-    { "name": "Serbia and Montenegro", "code": "CS" },
-    { "name": "Seychelles", "code": "SC" },
-    { "name": "Sierra Leone", "code": "SL" },
-    { "name": "Singapore", "code": "SG" },
-    { "name": "Slovakia", "code": "SK" },
-    { "name": "Slovenia", "code": "SI" },
-    { "name": "Solomon Islands", "code": "SB" },
-    { "name": "Somalia", "code": "SO" },
-    { "name": "South Africa", "code": "ZA" },
-    { "name": "South Georgia and the South Sandwich Islands", "code": "GS" },
-    { "name": "Spain", "code": "ES" },
-    { "name": "Sri Lanka", "code": "LK" },
-    { "name": "Sudan", "code": "SD" },
-    { "name": "Suriname", "code": "SR" },
-    { "name": "Svalbard and Jan Mayen", "code": "SJ" },
-    { "name": "Swaziland", "code": "SZ" },
-    { "name": "Sweden", "code": "SE" },
-    { "name": "Switzerland", "code": "CH" },
-    { "name": "Syrian Arab Republic", "code": "SY" },
-    { "name": "Taiwan, Province of China", "code": "TW" },
-    { "name": "Tajikistan", "code": "TJ" },
-    { "name": "Tanzania, United Republic of", "code": "TZ" },
-    { "name": "Thailand", "code": "TH" },
-    { "name": "Timor-Leste", "code": "TL" },
-    { "name": "Togo", "code": "TG" },
-    { "name": "Tokelau", "code": "TK" },
-    { "name": "Tonga", "code": "TO" },
-    { "name": "Trinidad and Tobago", "code": "TT" },
-    { "name": "Tunisia", "code": "TN" },
-    { "name": "Turkey", "code": "TR" },
-    { "name": "Turkmenistan", "code": "TM" },
-    { "name": "Turks and Caicos Islands", "code": "TC" },
-    { "name": "Tuvalu", "code": "TV" },
-    { "name": "Uganda", "code": "UG" },
-    { "name": "Ukraine", "code": "UA" },
-    { "name": "United Arab Emirates", "code": "AE" },
-    { "name": "United Kingdom", "code": "GB" },
-    { "name": "United States", "code": "US" },
-    { "name": "United States Minor Outlying Islands", "code": "UM" },
-    { "name": "Uruguay", "code": "UY" },
-    { "name": "Uzbekistan", "code": "UZ" },
-    { "name": "Vanuatu", "code": "VU" },
-    { "name": "Venezuela", "code": "VE" },
-    { "name": "Viet Nam", "code": "VN" },
-    { "name": "Virgin Islands, British", "code": "VG" },
-    { "name": "Virgin Islands, U.S.", "code": "VI" },
-    { "name": "Wallis and Futuna", "code": "WF" },
-    { "name": "Western Sahara", "code": "EH" },
-    { "name": "Yemen", "code": "YE" },
-    { "name": "Zambia", "code": "ZM" },
-    { "name": "Zimbabwe", "code": "ZW" }
+    {
+      "name": "Afghanistan",
+      "code": "AF",
+      "id": "38b6"
+    },
+    {
+      "name": "Åland Islands",
+      "code": "AX",
+      "id": "ff65"
+    },
+    {
+      "name": "Albania",
+      "code": "AL",
+      "id": "ac72"
+    },
+    {
+      "name": "Algeria",
+      "code": "DZ",
+      "id": "a42c"
+    },
+    {
+      "name": "American Samoa",
+      "code": "AS",
+      "id": "e89e"
+    },
+    {
+      "name": "AndorrA",
+      "code": "AD",
+      "id": "1e27"
+    },
+    {
+      "name": "Angola",
+      "code": "AO",
+      "id": "6b67"
+    },
+    {
+      "name": "Anguilla",
+      "code": "AI",
+      "id": "4024"
+    },
+    {
+      "name": "Antarctica",
+      "code": "AQ",
+      "id": "24cc"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "code": "AG",
+      "id": "a8bc"
+    },
+    {
+      "name": "Argentina",
+      "code": "AR",
+      "id": "0560"
+    },
+    {
+      "name": "Armenia",
+      "code": "AM",
+      "id": "74ab"
+    },
+    {
+      "name": "Aruba",
+      "code": "AW",
+      "id": "6e72"
+    },
+    {
+      "name": "Australia",
+      "code": "AU",
+      "id": "10fb"
+    },
+    {
+      "name": "Austria",
+      "code": "AT",
+      "id": "5492"
+    },
+    {
+      "name": "Azerbaijan",
+      "code": "AZ",
+      "id": "0fb1"
+    },
+    {
+      "name": "Bahamas",
+      "code": "BS",
+      "id": "5373"
+    },
+    {
+      "name": "Bahrain",
+      "code": "BH",
+      "id": "63a6"
+    },
+    {
+      "name": "Bangladesh",
+      "code": "BD",
+      "id": "9366"
+    },
+    {
+      "name": "Barbados",
+      "code": "BB",
+      "id": "3039"
+    },
+    {
+      "name": "Belarus",
+      "code": "BY",
+      "id": "c702"
+    },
+    {
+      "name": "Belgium",
+      "code": "BE",
+      "id": "2d64"
+    },
+    {
+      "name": "Belize",
+      "code": "BZ",
+      "id": "632e"
+    },
+    {
+      "name": "Benin",
+      "code": "BJ",
+      "id": "bb1d"
+    },
+    {
+      "name": "Bermuda",
+      "code": "BM",
+      "id": "a5ac"
+    },
+    {
+      "name": "Bhutan",
+      "code": "BT",
+      "id": "e780"
+    },
+    {
+      "name": "Bolivia",
+      "code": "BO",
+      "id": "362b"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "code": "BA",
+      "id": "d754"
+    },
+    {
+      "name": "Botswana",
+      "code": "BW",
+      "id": "62f0"
+    },
+    {
+      "name": "Bouvet Island",
+      "code": "BV",
+      "id": "28eb"
+    },
+    {
+      "name": "Brazil",
+      "code": "BR",
+      "id": "bd83"
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "code": "IO",
+      "id": "467d"
+    },
+    {
+      "name": "Brunei Darussalam",
+      "code": "BN",
+      "id": "220b"
+    },
+    {
+      "name": "Bulgaria",
+      "code": "BG",
+      "id": "0fe5"
+    },
+    {
+      "name": "Burkina Faso",
+      "code": "BF",
+      "id": "8909"
+    },
+    {
+      "name": "Burundi",
+      "code": "BI",
+      "id": "7a59"
+    },
+    {
+      "name": "Cambodia",
+      "code": "KH",
+      "id": "49fa"
+    },
+    {
+      "name": "Cameroon",
+      "code": "CM",
+      "id": "8e8c"
+    },
+    {
+      "name": "Canada",
+      "code": "CA",
+      "id": "28f7"
+    },
+    {
+      "name": "Cape Verde",
+      "code": "CV",
+      "id": "7e98"
+    },
+    {
+      "name": "Cayman Islands",
+      "code": "KY",
+      "id": "7964"
+    },
+    {
+      "name": "Central African Republic",
+      "code": "CF",
+      "id": "fa24"
+    },
+    {
+      "name": "Chad",
+      "code": "TD",
+      "id": "e475"
+    },
+    {
+      "name": "Chile",
+      "code": "CL",
+      "id": "d3b6"
+    },
+    {
+      "name": "China",
+      "code": "CN",
+      "id": "16e8"
+    },
+    {
+      "name": "Christmas Island",
+      "code": "CX",
+      "id": "fbfd"
+    },
+    {
+      "name": "Cocos (Keeling) Islands",
+      "code": "CC",
+      "id": "4d65"
+    },
+    {
+      "name": "Colombia",
+      "code": "CO",
+      "id": "3431"
+    },
+    {
+      "name": "Comoros",
+      "code": "KM",
+      "id": "9c17"
+    },
+    {
+      "name": "Congo",
+      "code": "CG",
+      "id": "b57e"
+    },
+    {
+      "name": "Congo, The Democratic Republic of the",
+      "code": "CD",
+      "id": "5302"
+    },
+    {
+      "name": "Cook Islands",
+      "code": "CK",
+      "id": "4339"
+    },
+    {
+      "name": "Costa Rica",
+      "code": "CR",
+      "id": "4130"
+    },
+    {
+      "name": "Cote D'Ivoire",
+      "code": "CI",
+      "id": "c374"
+    },
+    {
+      "name": "Croatia",
+      "code": "HR",
+      "id": "0acd"
+    },
+    {
+      "name": "Cuba",
+      "code": "CU",
+      "id": "71f8"
+    },
+    {
+      "name": "Cyprus",
+      "code": "CY",
+      "id": "566a"
+    },
+    {
+      "name": "Czech Republic",
+      "code": "CZ",
+      "id": "d42f"
+    },
+    {
+      "name": "Denmark",
+      "code": "DK",
+      "id": "a37f"
+    },
+    {
+      "name": "Djibouti",
+      "code": "DJ",
+      "id": "2968"
+    },
+    {
+      "name": "Dominica",
+      "code": "DM",
+      "id": "a5d5"
+    },
+    {
+      "name": "Dominican Republic",
+      "code": "DO",
+      "id": "1405"
+    },
+    {
+      "name": "Ecuador",
+      "code": "EC",
+      "id": "8635"
+    },
+    {
+      "name": "Egypt",
+      "code": "EG",
+      "id": "a7cc"
+    },
+    {
+      "name": "El Salvador",
+      "code": "SV",
+      "id": "f16e"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "code": "GQ",
+      "id": "a309"
+    },
+    {
+      "name": "Eritrea",
+      "code": "ER",
+      "id": "51f8"
+    },
+    {
+      "name": "Estonia",
+      "code": "EE",
+      "id": "29cf"
+    },
+    {
+      "name": "Ethiopia",
+      "code": "ET",
+      "id": "c5c9"
+    },
+    {
+      "name": "Falkland Islands (Malvinas)",
+      "code": "FK",
+      "id": "51e4"
+    },
+    {
+      "name": "Faroe Islands",
+      "code": "FO",
+      "id": "268f"
+    },
+    {
+      "name": "Fiji",
+      "code": "FJ",
+      "id": "035c"
+    },
+    {
+      "name": "Finland",
+      "code": "FI",
+      "id": "650f"
+    },
+    {
+      "name": "France",
+      "code": "FR",
+      "id": "71ba"
+    },
+    {
+      "name": "French Guiana",
+      "code": "GF",
+      "id": "636f"
+    },
+    {
+      "name": "French Polynesia",
+      "code": "PF",
+      "id": "d999"
+    },
+    {
+      "name": "French Southern Territories",
+      "code": "TF",
+      "id": "d43e"
+    },
+    {
+      "name": "Gabon",
+      "code": "GA",
+      "id": "1ca4"
+    },
+    {
+      "name": "Gambia",
+      "code": "GM",
+      "id": "e2ab"
+    },
+    {
+      "name": "Georgia",
+      "code": "GE",
+      "id": "504a"
+    },
+    {
+      "name": "Germany",
+      "code": "DE",
+      "id": "2ee4"
+    },
+    {
+      "name": "Ghana",
+      "code": "GH",
+      "id": "13f2"
+    },
+    {
+      "name": "Gibraltar",
+      "code": "GI",
+      "id": "180c"
+    },
+    {
+      "name": "Greece",
+      "code": "GR",
+      "id": "b21a"
+    },
+    {
+      "name": "Greenland",
+      "code": "GL",
+      "id": "83e1"
+    },
+    {
+      "name": "Grenada",
+      "code": "GD",
+      "id": "a25d"
+    },
+    {
+      "name": "Guadeloupe",
+      "code": "GP",
+      "id": "e5b3"
+    },
+    {
+      "name": "Guam",
+      "code": "GU",
+      "id": "3252"
+    },
+    {
+      "name": "Guatemala",
+      "code": "GT",
+      "id": "9573"
+    },
+    {
+      "name": "Guernsey",
+      "code": "GG",
+      "id": "4d11"
+    },
+    {
+      "name": "Guinea",
+      "code": "GN",
+      "id": "6c7d"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "code": "GW",
+      "id": "c12f"
+    },
+    {
+      "name": "Guyana",
+      "code": "GY",
+      "id": "86e6"
+    },
+    {
+      "name": "Haiti",
+      "code": "HT",
+      "id": "abe7"
+    },
+    {
+      "name": "Heard Island and Mcdonald Islands",
+      "code": "HM",
+      "id": "0de2"
+    },
+    {
+      "name": "Holy See (Vatican City State)",
+      "code": "VA",
+      "id": "0a18"
+    },
+    {
+      "name": "Honduras",
+      "code": "HN",
+      "id": "fe14"
+    },
+    {
+      "name": "Hong Kong",
+      "code": "HK",
+      "id": "a074"
+    },
+    {
+      "name": "Hungary",
+      "code": "HU",
+      "id": "126e"
+    },
+    {
+      "name": "Iceland",
+      "code": "IS",
+      "id": "8b06"
+    },
+    {
+      "name": "India",
+      "code": "IN",
+      "id": "ebf4"
+    },
+    {
+      "name": "Indonesia",
+      "code": "ID",
+      "id": "ee53"
+    },
+    {
+      "name": "Iran, Islamic Republic Of",
+      "code": "IR",
+      "id": "8914"
+    },
+    {
+      "name": "Iraq",
+      "code": "IQ",
+      "id": "a62d"
+    },
+    {
+      "name": "Ireland",
+      "code": "IE",
+      "id": "7760"
+    },
+    {
+      "name": "Isle of Man",
+      "code": "IM",
+      "id": "ce09"
+    },
+    {
+      "name": "Israel",
+      "code": "IL",
+      "id": "f8b2"
+    },
+    {
+      "name": "Italy",
+      "code": "IT",
+      "id": "b958"
+    },
+    {
+      "name": "Jamaica",
+      "code": "JM",
+      "id": "3f90"
+    },
+    {
+      "name": "Japan",
+      "code": "JP",
+      "id": "ce78"
+    },
+    {
+      "name": "Jersey",
+      "code": "JE",
+      "id": "8615"
+    },
+    {
+      "name": "Jordan",
+      "code": "JO",
+      "id": "128e"
+    },
+    {
+      "name": "Kazakhstan",
+      "code": "KZ",
+      "id": "d6d0"
+    },
+    {
+      "name": "Kenya",
+      "code": "KE",
+      "id": "a2de"
+    },
+    {
+      "name": "Kiribati",
+      "code": "KI",
+      "id": "3459"
+    },
+    {
+      "name": "Korea, Democratic People'S Republic of",
+      "code": "KP",
+      "id": "9c85"
+    },
+    {
+      "name": "Korea, Republic of",
+      "code": "KR",
+      "id": "ee45"
+    },
+    {
+      "name": "Kuwait",
+      "code": "KW",
+      "id": "7a62"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "code": "KG",
+      "id": "7805"
+    },
+    {
+      "name": "Lao People'S Democratic Republic",
+      "code": "LA",
+      "id": "fa5d"
+    },
+    {
+      "name": "Latvia",
+      "code": "LV",
+      "id": "0a9f"
+    },
+    {
+      "name": "Lebanon",
+      "code": "LB",
+      "id": "de2a"
+    },
+    {
+      "name": "Lesotho",
+      "code": "LS",
+      "id": "187b"
+    },
+    {
+      "name": "Liberia",
+      "code": "LR",
+      "id": "8911"
+    },
+    {
+      "name": "Libyan Arab Jamahiriya",
+      "code": "LY",
+      "id": "da6e"
+    },
+    {
+      "name": "Liechtenstein",
+      "code": "LI",
+      "id": "cf92"
+    },
+    {
+      "name": "Lithuania",
+      "code": "LT",
+      "id": "2402"
+    },
+    {
+      "name": "Luxembourg",
+      "code": "LU",
+      "id": "8bda"
+    },
+    {
+      "name": "Macao",
+      "code": "MO",
+      "id": "0a47"
+    },
+    {
+      "name": "Macedonia, The Former Yugoslav Republic of",
+      "code": "MK",
+      "id": "a0cf"
+    },
+    {
+      "name": "Madagascar",
+      "code": "MG",
+      "id": "5e02"
+    },
+    {
+      "name": "Malawi",
+      "code": "MW",
+      "id": "a81e"
+    },
+    {
+      "name": "Malaysia",
+      "code": "MY",
+      "id": "b586"
+    },
+    {
+      "name": "Maldives",
+      "code": "MV",
+      "id": "6ece"
+    },
+    {
+      "name": "Mali",
+      "code": "ML",
+      "id": "a05e"
+    },
+    {
+      "name": "Malta",
+      "code": "MT",
+      "id": "6c5f"
+    },
+    {
+      "name": "Marshall Islands",
+      "code": "MH",
+      "id": "3d70"
+    },
+    {
+      "name": "Martinique",
+      "code": "MQ",
+      "id": "ba35"
+    },
+    {
+      "name": "Mauritania",
+      "code": "MR",
+      "id": "4e03"
+    },
+    {
+      "name": "Mauritius",
+      "code": "MU",
+      "id": "124c"
+    },
+    {
+      "name": "Mayotte",
+      "code": "YT",
+      "id": "6245"
+    },
+    {
+      "name": "Mexico",
+      "code": "MX",
+      "id": "a0e0"
+    },
+    {
+      "name": "Micronesia, Federated States of",
+      "code": "FM",
+      "id": "aa78"
+    },
+    {
+      "name": "Moldova, Republic of",
+      "code": "MD",
+      "id": "a7ab"
+    },
+    {
+      "name": "Monaco",
+      "code": "MC",
+      "id": "4e5f"
+    },
+    {
+      "name": "Mongolia",
+      "code": "MN",
+      "id": "74c7"
+    },
+    {
+      "name": "Montserrat",
+      "code": "MS",
+      "id": "1268"
+    },
+    {
+      "name": "Morocco",
+      "code": "MA",
+      "id": "229c"
+    },
+    {
+      "name": "Mozambique",
+      "code": "MZ",
+      "id": "83bf"
+    },
+    {
+      "name": "Myanmar",
+      "code": "MM",
+      "id": "ab72"
+    },
+    {
+      "name": "Namibia",
+      "code": "NA",
+      "id": "bca0"
+    },
+    {
+      "name": "Nauru",
+      "code": "NR",
+      "id": "4251"
+    },
+    {
+      "name": "Nepal",
+      "code": "NP",
+      "id": "551b"
+    },
+    {
+      "name": "Netherlands",
+      "code": "NL",
+      "id": "f64d"
+    },
+    {
+      "name": "Netherlands Antilles",
+      "code": "AN",
+      "id": "88df"
+    },
+    {
+      "name": "New Caledonia",
+      "code": "NC",
+      "id": "0d91"
+    },
+    {
+      "name": "New Zealand",
+      "code": "NZ",
+      "id": "9540"
+    },
+    {
+      "name": "Nicaragua",
+      "code": "NI",
+      "id": "724e"
+    },
+    {
+      "name": "Niger",
+      "code": "NE",
+      "id": "daa4"
+    },
+    {
+      "name": "Nigeria",
+      "code": "NG",
+      "id": "eca2"
+    },
+    {
+      "name": "Niue",
+      "code": "NU",
+      "id": "6ffe"
+    },
+    {
+      "name": "Norfolk Island",
+      "code": "NF",
+      "id": "9b47"
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "code": "MP",
+      "id": "8306"
+    },
+    {
+      "name": "Norway",
+      "code": "NO",
+      "id": "f8a9"
+    },
+    {
+      "name": "Oman",
+      "code": "OM",
+      "id": "76b2"
+    },
+    {
+      "name": "Pakistan",
+      "code": "PK",
+      "id": "d002"
+    },
+    {
+      "name": "Palau",
+      "code": "PW",
+      "id": "fa96"
+    },
+    {
+      "name": "Palestinian Territory, Occupied",
+      "code": "PS",
+      "id": "0ca5"
+    },
+    {
+      "name": "Panama",
+      "code": "PA",
+      "id": "8364"
+    },
+    {
+      "name": "Papua New Guinea",
+      "code": "PG",
+      "id": "acc4"
+    },
+    {
+      "name": "Paraguay",
+      "code": "PY",
+      "id": "fec5"
+    },
+    {
+      "name": "Peru",
+      "code": "PE",
+      "id": "b86f"
+    },
+    {
+      "name": "Philippines",
+      "code": "PH",
+      "id": "fd29"
+    },
+    {
+      "name": "Pitcairn",
+      "code": "PN",
+      "id": "a6a0"
+    },
+    {
+      "name": "Poland",
+      "code": "PL",
+      "id": "1f0e"
+    },
+    {
+      "name": "Portugal",
+      "code": "PT",
+      "id": "2261"
+    },
+    {
+      "name": "Puerto Rico",
+      "code": "PR",
+      "id": "6471"
+    },
+    {
+      "name": "Qatar",
+      "code": "QA",
+      "id": "b2fe"
+    },
+    {
+      "name": "Reunion",
+      "code": "RE",
+      "id": "5afb"
+    },
+    {
+      "name": "Romania",
+      "code": "RO",
+      "id": "4097"
+    },
+    {
+      "name": "Russian Federation",
+      "code": "RU",
+      "id": "9641"
+    },
+    {
+      "name": "RWANDA",
+      "code": "RW",
+      "id": "5263"
+    },
+    {
+      "name": "Saint Helena",
+      "code": "SH",
+      "id": "e669"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "code": "KN",
+      "id": "d4d8"
+    },
+    {
+      "name": "Saint Lucia",
+      "code": "LC",
+      "id": "899b"
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "code": "PM",
+      "id": "4731"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "code": "VC",
+      "id": "80f6"
+    },
+    {
+      "name": "Samoa",
+      "code": "WS",
+      "id": "fabd"
+    },
+    {
+      "name": "San Marino",
+      "code": "SM",
+      "id": "9cf0"
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "code": "ST",
+      "id": "71b4"
+    },
+    {
+      "name": "Saudi Arabia",
+      "code": "SA",
+      "id": "26ae"
+    },
+    {
+      "name": "Senegal",
+      "code": "SN",
+      "id": "ed22"
+    },
+    {
+      "name": "Serbia and Montenegro",
+      "code": "CS",
+      "id": "d1d0"
+    },
+    {
+      "name": "Seychelles",
+      "code": "SC",
+      "id": "ee92"
+    },
+    {
+      "name": "Sierra Leone",
+      "code": "SL",
+      "id": "0f5a"
+    },
+    {
+      "name": "Singapore",
+      "code": "SG",
+      "id": "6b3f"
+    },
+    {
+      "name": "Slovakia",
+      "code": "SK",
+      "id": "0ea6"
+    },
+    {
+      "name": "Slovenia",
+      "code": "SI",
+      "id": "7cfe"
+    },
+    {
+      "name": "Solomon Islands",
+      "code": "SB",
+      "id": "4d2c"
+    },
+    {
+      "name": "Somalia",
+      "code": "SO",
+      "id": "d3d4"
+    },
+    {
+      "name": "South Africa",
+      "code": "ZA",
+      "id": "7e8e"
+    },
+    {
+      "name": "South Georgia and the South Sandwich Islands",
+      "code": "GS",
+      "id": "bd86"
+    },
+    {
+      "name": "Spain",
+      "code": "ES",
+      "id": "f27f"
+    },
+    {
+      "name": "Sri Lanka",
+      "code": "LK",
+      "id": "18d7"
+    },
+    {
+      "name": "Sudan",
+      "code": "SD",
+      "id": "7d6b"
+    },
+    {
+      "name": "Suriname",
+      "code": "SR",
+      "id": "4965"
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "code": "SJ",
+      "id": "caa9"
+    },
+    {
+      "name": "Swaziland",
+      "code": "SZ",
+      "id": "0dc4"
+    },
+    {
+      "name": "Sweden",
+      "code": "SE",
+      "id": "aa27"
+    },
+    {
+      "name": "Switzerland",
+      "code": "CH",
+      "id": "0eb0"
+    },
+    {
+      "name": "Syrian Arab Republic",
+      "code": "SY",
+      "id": "81c7"
+    },
+    {
+      "name": "Taiwan, Province of China",
+      "code": "TW",
+      "id": "a4fc"
+    },
+    {
+      "name": "Tajikistan",
+      "code": "TJ",
+      "id": "c12b"
+    },
+    {
+      "name": "Tanzania, United Republic of",
+      "code": "TZ",
+      "id": "8822"
+    },
+    {
+      "name": "Thailand",
+      "code": "TH",
+      "id": "e2a2"
+    },
+    {
+      "name": "Timor-Leste",
+      "code": "TL",
+      "id": "3f13"
+    },
+    {
+      "name": "Togo",
+      "code": "TG",
+      "id": "89ee"
+    },
+    {
+      "name": "Tokelau",
+      "code": "TK",
+      "id": "6adf"
+    },
+    {
+      "name": "Tonga",
+      "code": "TO",
+      "id": "51f5"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "code": "TT",
+      "id": "a26f"
+    },
+    {
+      "name": "Tunisia",
+      "code": "TN",
+      "id": "6891"
+    },
+    {
+      "name": "Turkey",
+      "code": "TR",
+      "id": "92ad"
+    },
+    {
+      "name": "Turkmenistan",
+      "code": "TM",
+      "id": "06a5"
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "code": "TC",
+      "id": "8c9d"
+    },
+    {
+      "name": "Tuvalu",
+      "code": "TV",
+      "id": "2693"
+    },
+    {
+      "name": "Uganda",
+      "code": "UG",
+      "id": "23af"
+    },
+    {
+      "name": "Ukraine",
+      "code": "UA",
+      "id": "789f"
+    },
+    {
+      "name": "United Arab Emirates",
+      "code": "AE",
+      "id": "1368"
+    },
+    {
+      "name": "United Kingdom",
+      "code": "GB",
+      "id": "5555"
+    },
+    {
+      "name": "United States",
+      "code": "US",
+      "id": "3f9d"
+    },
+    {
+      "name": "United States Minor Outlying Islands",
+      "code": "UM",
+      "id": "63b8"
+    },
+    {
+      "name": "Uruguay",
+      "code": "UY",
+      "id": "6622"
+    },
+    {
+      "name": "Uzbekistan",
+      "code": "UZ",
+      "id": "12a4"
+    },
+    {
+      "name": "Vanuatu",
+      "code": "VU",
+      "id": "eda3"
+    },
+    {
+      "name": "Venezuela",
+      "code": "VE",
+      "id": "916f"
+    },
+    {
+      "name": "Viet Nam",
+      "code": "VN",
+      "id": "d117"
+    },
+    {
+      "name": "Virgin Islands, British",
+      "code": "VG",
+      "id": "b22e"
+    },
+    {
+      "name": "Virgin Islands, U.S.",
+      "code": "VI",
+      "id": "f02c"
+    },
+    {
+      "name": "Wallis and Futuna",
+      "code": "WF",
+      "id": "2da9"
+    },
+    {
+      "name": "Western Sahara",
+      "code": "EH",
+      "id": "b92d"
+    },
+    {
+      "name": "Yemen",
+      "code": "YE",
+      "id": "b369"
+    },
+    {
+      "name": "Zambia",
+      "code": "ZM",
+      "id": "6280"
+    },
+    {
+      "name": "Zimbabwe",
+      "code": "ZW",
+      "id": "e5f1"
+    }
   ],
   "categories": [
-    { "key": "FRU", "value": "Fruits" },
-    { "key": "VEG", "value": "Vegetables" },
-    { "key": "GRA", "value": "Grains, Legumes, and Nuts" },
-    { "key": "DAI", "value": "Dairy" },
-    { "key": "MEA", "value": "Meats" },
-    { "key": "SEA", "value": "Seafood" },
-    { "key": "SWE", "value": "Sweets and Snacks" },
-    { "key": "BEV", "value": "Beverages" },
-    { "key": "SPC", "value": "Spices and Herbs" },
-    { "key": "OIL", "value": "Oils and Fats" },
-    { "key": "CON", "value": "Condiments and Sauces" },
-    { "key": "ALC", "value": "Alcoholic Beverages" },
-    { "key": "BAK", "value": "Baked Goods" },
-    { "key": "FER", "value": "Fermented Foods" },
-    { "key": "REA", "value": "Ready-to-Eat Meals" },
-    { "key": "FZN", "value": "Frozen Foods" },
-    { "key": "HLT", "value": "Health and Superfoods" }
+    {
+      "key": "FRU",
+      "value": "Fruits",
+      "id": "907d"
+    },
+    {
+      "key": "VEG",
+      "value": "Vegetables",
+      "id": "3aac"
+    },
+    {
+      "key": "GRA",
+      "value": "Grains, Legumes, and Nuts",
+      "id": "e1a6"
+    },
+    {
+      "key": "DAI",
+      "value": "Dairy",
+      "id": "6da2"
+    },
+    {
+      "key": "MEA",
+      "value": "Meats",
+      "id": "8826"
+    },
+    {
+      "key": "SEA",
+      "value": "Seafood",
+      "id": "1ccd"
+    },
+    {
+      "key": "SWE",
+      "value": "Sweets and Snacks",
+      "id": "c445"
+    },
+    {
+      "key": "BEV",
+      "value": "Beverages",
+      "id": "bef2"
+    },
+    {
+      "key": "SPC",
+      "value": "Spices and Herbs",
+      "id": "5744"
+    },
+    {
+      "key": "OIL",
+      "value": "Oils and Fats",
+      "id": "fd43"
+    },
+    {
+      "key": "CON",
+      "value": "Condiments and Sauces",
+      "id": "8bfa"
+    },
+    {
+      "key": "ALC",
+      "value": "Alcoholic Beverages",
+      "id": "5bb6"
+    },
+    {
+      "key": "BAK",
+      "value": "Baked Goods",
+      "id": "b9c9"
+    },
+    {
+      "key": "FER",
+      "value": "Fermented Foods",
+      "id": "96e2"
+    },
+    {
+      "key": "REA",
+      "value": "Ready-to-Eat Meals",
+      "id": "f125"
+    },
+    {
+      "key": "FZN",
+      "value": "Frozen Foods",
+      "id": "0827"
+    },
+    {
+      "key": "HLT",
+      "value": "Health and Superfoods",
+      "id": "fa05"
+    }
   ],
   "cities": [
     {

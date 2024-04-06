@@ -1,14 +1,39 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { MaterialModule } from "../../material/material.module";
 import { AppService } from "../../services/app.service";
+import { FormControl, ReactiveFormsModule } from "@angular/forms";
+import { map, Observable, startWith } from "rxjs";
+import { AsyncPipe, CommonModule } from "@angular/common";
+import { citiesList } from "../../services/appConstatnts";
 
 @Component({
   selector: "app-search-home",
   standalone: true,
-  imports: [MaterialModule],
+  imports: [MaterialModule, ReactiveFormsModule, CommonModule],
   templateUrl: "./search-home.component.html",
   styleUrl: "./search-home.component.css",
 })
-export class SearchHomeComponent {
+export class SearchHomeComponent implements OnInit {
+  bgImage = "assets/images/vintage-old-rustic-cutlery-dark.jpg";
+  cityControl = new FormControl("");
+  options: string[] = [];
+  filteredOptions!: Observable<string[]>;
+
   constructor(public appService: AppService) {}
+  ngOnInit(): void {
+    this.options = citiesList;
+
+    this.filteredOptions = this.cityControl.valueChanges.pipe(
+      startWith(""),
+      map((value) => this._filter(value || ""))
+    );
+  }
+
+  private _filter(value: string): string[] {
+    const filterValue = value.toLowerCase();
+
+    return this.options.filter((option) =>
+      option.toLowerCase().includes(filterValue)
+    );
+  }
 }

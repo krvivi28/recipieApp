@@ -5,7 +5,7 @@ import { AllRecipesComponent } from "./components/all-recipes/all-recipes.compon
 import { LoaderComponent } from "./components/loader/loader.component";
 import { LoaderService } from "./services/loader.service";
 import { HeaderComponent } from "./components/header/header.component";
-import { HttpClient, HttpClientModule } from "@angular/common/http";
+import { HttpClientModule } from "@angular/common/http";
 import { AppService } from "./services/app.service";
 
 @Component({
@@ -27,31 +27,25 @@ export class AppComponent implements OnInit {
 
   constructor(
     public loaderService: LoaderService,
-    private http: HttpClient,
     private appService: AppService
   ) {}
+
   ngOnInit(): void {
     this.fetchCategoriesList();
     this.fetchCountriesList();
-    this.fetchIndiaCitiesList();
-  }
-
-  fetchIndiaCitiesList() {
-    const path = this.appService.baseUrl + "/cities";
-    this.http.get(path).subscribe((res) => {
-      this.appService.citiesList = res;
-      console.log(res);
-    });
+    this.appService.fetchAllRecipies();
   }
 
   fetchCountriesList() {
-    this.http.get("http://localhost:3000/countries").subscribe((res) => {
+    this.appService.path = this.appService.baseUrl + "/countries";
+    this.appService.getServiceRequest().subscribe((res) => {
       this.appService.countriesList = res;
     });
   }
 
   fetchCategoriesList() {
-    this.http.get("http://localhost:3000/categories").subscribe((res) => {
+    this.appService.path = this.appService.baseUrl + "/categories";
+    this.appService.getServiceRequest().subscribe((res) => {
       this.appService.recipieCategories = res;
     });
   }

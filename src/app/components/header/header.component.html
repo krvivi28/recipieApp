@@ -6,7 +6,7 @@
   >
     <mat-icon>menu</mat-icon>
   </button>
-  <span>Cubastion-Eats</span>
+  <span>Cuba-Eats</span>
   <span class="example-spacer"></span>
   <button mat-raised-button color="accent" (click)="openDialog()">
     Add New Recipe <mat-icon>add</mat-icon>
@@ -192,9 +192,14 @@
     </div>
   </mat-dialog-content>
   <mat-dialog-actions align="end">
-    <button mat-button mat-dialog-close>Cancel</button>
-    <button mat-button [mat-dialog-close]="true" cdkFocusInitial>
-      Install
+    <button
+      (click)="handleAddRecipe()"
+      mat-raised-button
+      color="primary"
+      cdkFocusInitial
+    >
+      Add
     </button>
+    <button mat-button mat-dialog-close>Cancel</button>
   </mat-dialog-actions>
 </ng-template>

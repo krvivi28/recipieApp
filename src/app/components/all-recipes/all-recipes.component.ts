@@ -25,27 +25,32 @@ export class AllRecipesComponent implements OnInit {
   allRecepies = [];
   @ViewChild("form") newRecipeForm!: TemplateRef<any>;
 
-  constructor(private dialog: MatDialog, private appService: AppService,private http:HttpClient,private loaderService:LoaderService) {}
+  constructor(
+    private dialog: MatDialog,
+    public appService: AppService,
+    private http: HttpClient,
+    private loaderService: LoaderService
+  ) {}
 
   ngOnInit(): void {
-    this.fetchAllRecipies()
+    // this.fetchAllRecipies();
   }
 
-  fetchAllRecipies() {
-    this.loaderService.isLoading.set(true);
-    const path = this.appService.baseUrl + `/recipies`;
-    this.http.get(path).subscribe({
-      next:(res: any) => {
-        console.log(res);
-        this.allRecepies = res;
-         this.loaderService.isLoading.set(false);
-      },
-      error:(err) => {
-         this.loaderService.isLoading.set(false);
-      }
-    }
-    );
-  }
+  // fetchAllRecipies() {
+  //   this.loaderService.isLoading.set(true);
+  //   const path = this.appService.baseUrl + `/recipies`;
+  //   this.http.get(path).subscribe({
+  //     next:(res: any) => {
+  //       console.log(res);
+  //       this.allRecepies = res;
+  //        this.loaderService.isLoading.set(false);
+  //     },
+  //     error:(err) => {
+  //        this.loaderService.isLoading.set(false);
+  //     }
+  //   }
+  //   );
+  // }
 
   openDialog() {
     this.dialog.open(this.newRecipeForm);

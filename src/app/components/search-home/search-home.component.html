@@ -1,13 +1,33 @@
 <div
-  class="flex flex-col items-center justify-center p-[4.5rem] bg-[url('https://img.freepik.com/free-photo/grilled-chicken-breast-served-black-slate_1220-2989.jpg?w=2000&t=st=1712096263~exp=1712096863~hmac=4ab5f28d00f45c824956dcc9a8a46736f1b4b30045f9a0e5844f8f5ca1a1ba68')] w-full bg-cover bg-center h-[400px]"
+  [style.background-image]="'url(assets/images/bg9.jpg)'"
+  class="flex flex-col items-center justify-center p-[4.5rem] w-full bg-cover bg-center h-[400px]"
 >
-  <p class="text-5xl text-white">Cubastion-Eats</p>
+  <p class="text-5xl text-white">Cuba-Eats</p>
   <p class="text-lg text-blue-500">
-    Discover the best food & recipes with Cubastion-Eats
+    Discover the best food & recipes with Cuba-Eats
   </p>
   <div class="flex flex-wrap items-center">
     <div>
-      <mat-form-field class="border-t border-solid border-blue-800">
+      <!-- test -->
+      <mat-form-field class="example-full-width">
+        <mat-label>Select Location</mat-label>
+        <input
+          type="text"
+          placeholder="Pick one"
+          aria-label="City"
+          matInput
+          [formControl]="cityControl"
+          [matAutocomplete]="auto"
+        />
+        <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+          @for (option of filteredOptions|async ; track option) {
+          <mat-option [value]="option">{{ option }}</mat-option>
+          }
+        </mat-autocomplete>
+      </mat-form-field>
+      <!-- test -->
+
+      <!-- <mat-form-field class="border-t border-solid border-blue-800">
         <mat-label>location</mat-label>
         <mat-select>
           @for (city of appService.citiesList; track $index) {
@@ -16,7 +36,7 @@
           >
           }
         </mat-select>
-      </mat-form-field>
+      </mat-form-field> -->
     </div>
     <div>
       <mat-form-field class="border-t border-solid border-blue-800">

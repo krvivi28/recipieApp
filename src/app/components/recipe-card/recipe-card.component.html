@@ -1,15 +1,45 @@
-<div class="w-[300px] h-[300px]">
+<div class="w-[300px]">
   <mat-card>
+    <button
+      style="position: absolute; top: 0; right: 0"
+      mat-icon-button
+      [matMenuTriggerFor]="menu"
+      aria-label="Example icon-button with a menu"
+    >
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button (click)="handleDelete(recipe.id)" mat-menu-item>
+        <mat-icon>delete_forever</mat-icon>
+        <span>Delete</span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>edit</mat-icon>
+        <span>Edit</span>
+      </button>
+      <button mat-menu-item>
+        <mat-icon>visibility</mat-icon>
+        <span>Details</span>
+      </button>
+    </mat-menu>
     <mat-card-header>
       <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>{{ recipe.title }}</mat-card-title>
+      <mat-card-title>{{
+        recipe.title.length > 15
+          ? recipe.title.slice(0, 15) + " ..."
+          : recipe.title
+      }}</mat-card-title>
     </mat-card-header>
     <div class="image-container">
       <img mat-card-image [src]="recipe.imageUrl" alt="Photo of a Shiba Inu" />
     </div>
     <mat-card-content>
       <p>
-        {{ recipe.description }}
+        {{
+          recipe.description.length > 80
+            ? recipe.description.slice(0, 80) + " ..."
+            : recipe.description
+        }}
       </p>
     </mat-card-content>
     <mat-card-actions>
@@ -37,7 +67,7 @@
             class="animate-ping absolute inline-flex h-full w-full rounded-full opacity-75"
           ></span>
           <span
-            [matTooltip]="isVeg(recipe) ? 'veg' : 'non-veg'"
+            [matTooltip]="recipe.category"
             [ngClass]="{
               'bg-green-600': isVeg(recipe),
               'bg-red-600': !isVeg(recipe)

@@ -10,8 +10,11 @@ import {
   Validators,
 } from "@angular/forms";
 
-import { HttpClientModule } from "@angular/common/http";
+import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { AppService } from "../../services/app.service";
+import { Observable } from "rxjs";
+import { ToasterService } from "../../services/toaster.service";
+import { LoaderService } from "../../services/loader.service";
 
 @Component({
   selector: "app-header",
@@ -28,11 +31,15 @@ export class HeaderComponent implements OnInit {
   value = 1;
   countriesList: any;
   recipieCategories: any;
+  recipieFormDialogRef!: any;
 
   constructor(
     private dialog: MatDialog,
     private fb: FormBuilder,
-    public appService: AppService
+    public appService: AppService,
+    private http: HttpClient,
+    private toaster: ToasterService,
+    private loaderService: LoaderService
   ) {}
 
   ngOnInit(): void {
@@ -42,38 +49,42 @@ export class HeaderComponent implements OnInit {
   }
 
   openDialog() {
-    this.dialog.open(this.newRecipeForm, {
+    this.recipieFormDialogRef = this.dialog.open(this.newRecipeForm, {
       // height: "80%",
       width: "60%",
     });
+    this.recipieFormDialogRef.afterClosed().subscribe((res: any) => {
+      this.appService.fetchAllRecipies();
+    });
   }
 
-  handleAddRecipe(form: any) {
-    console.log(form.value);
-    this.newRecipeData = form.value;
-  }
-  handleChange(val: any) {
-    console.log("val", val);
+  handleAddRecipe() {
+    if (this.recipieForm.valid) {
+      this.postNewRecipie();
+      this.recipieFormDialogRef.close();
+    } else {
+      this.toaster.warning("Please enter requied input details");
+    }
   }
 
   initRecipieForm() {
     this.recipieForm = this.fb.group({
-      title: ["", [Validators.required]],
-      description: ["", [Validators.required]],
-      category: ["", [Validators.required]],
-      imageUrl: ["", [Validators.required]],
-      servings: [1, [Validators.required]],
+      title: ["", []],
+      description: ["", []],
+      category: ["", []],
+      imageUrl: ["", []],
+      servings: [1, []],
       ingredients: this.fb.array([this.getNewIngredientsForm()]),
       steps: this.fb.array([this.getNewInstructionForm()]),
       chefDetails: this.fb.group({
-        name: ["", [Validators.required]],
-        age: ["", [Validators.required]],
-        experience: ["", [Validators.required]],
-        dateOfBirth: ["", [Validators.required]],
+        name: ["", []],
+        age: ["", []],
+        experience: ["", []],
+        dateOfBirth: ["", []],
         contact: this.fb.group({
-          email: ["", [Validators.required]],
-          mobile: ["", [Validators.required]],
-          country: ["", [Validators.required]],
+          email: ["", []],
+          mobile: ["", []],
+          country: ["", []],
         }),
       }),
       published: [""],
@@ -108,5 +119,20 @@ export class HeaderComponent implements OnInit {
 
   addNewInstruction() {
     this.instructionsFormArray.push(this.getNewInstructionForm());
+  }
+
+  postNewRecipie() {
+    this.loaderService.isLoading.set(true);
+    this.appService.path = this.appService.baseUrl + "/recipies";
+    this.appService.postServiceRequest(this.recipieForm.value).subscribe({
+      next: (res) => {
+        this.toaster.success("Recipie added successfully");
+        this.loaderService.isLoading.set(false);
+      },
+      error: (err) => {
+        this.toaster.error(`Error ${err.message}`);
+        this.loaderService.isLoading.set(false);
+      },
+    });
   }
 }

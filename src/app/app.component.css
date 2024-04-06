@@ -1,0 +1,21 @@
+::ng-deep .snackbar-container {
+  margin-top: 70px !important;
+  color: beige;
+  border-radius: 4px;
+}
+
+::ng-deep .error {
+  background-color: #c62828 !important;
+}
+
+::ng-deep .success {
+  background-color: #307f34b5 !important;
+}
+
+::ng-deep .warning {
+  background-color: #ff8f00 !important;
+}
+
+::ng-deep .mdc-snackbar__surface {
+  background: transparent !important;
+}
