@@ -24,7 +24,7 @@ export class RecipeCardComponent implements OnChanges {
   ) {}
 
   ngOnChanges(changes: SimpleChanges): void {
-    console.log(changes);
+    // console.log(changes);
   }
   @Input() recipe: any;
 

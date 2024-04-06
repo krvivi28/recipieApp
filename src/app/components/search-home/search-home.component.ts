@@ -37,7 +37,7 @@ export class SearchHomeComponent implements OnInit {
   }
 
   handleSearchInput(val: any) {
-    console.log("search start" + val);
+    // console.log("search start" + val);
     this.appService.filteredRecipies = this.appService.allRecepies.filter(
       (el: any) => {
         return el.title.toLowerCase().includes(val.toLowerCase());

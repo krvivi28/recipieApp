@@ -45,7 +45,7 @@ export class AppService {
     this.path = this.baseUrl + `/recipies`;
     this.getServiceRequest().subscribe({
       next: (res: any) => {
-        console.log(res);
+        // console.log(res);
         this.allRecepies = res;
         this.loaderService.isLoading.set(false);
         // this.toatser.success("Recipies data fetched succeessfully");
