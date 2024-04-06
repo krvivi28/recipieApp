@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { MaterialModule } from "../../material/material.module";
 import { AppService } from "../../services/app.service";
-import { FormControl, ReactiveFormsModule } from "@angular/forms";
+import { FormControl, FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { map, Observable, startWith } from "rxjs";
 import { AsyncPipe, CommonModule } from "@angular/common";
 import { citiesList } from "../../services/appConstatnts";
@@ -9,7 +9,7 @@ import { citiesList } from "../../services/appConstatnts";
 @Component({
   selector: "app-search-home",
   standalone: true,
-  imports: [MaterialModule, ReactiveFormsModule, CommonModule],
+  imports: [MaterialModule, ReactiveFormsModule, CommonModule, FormsModule],
   templateUrl: "./search-home.component.html",
   styleUrl: "./search-home.component.css",
 })
@@ -18,6 +18,7 @@ export class SearchHomeComponent implements OnInit {
   cityControl = new FormControl("");
   options: string[] = [];
   filteredOptions!: Observable<string[]>;
+  searchKeyword: any;
 
   constructor(public appService: AppService) {}
   ngOnInit(): void {
@@ -36,11 +37,13 @@ export class SearchHomeComponent implements OnInit {
     );
   }
 
-  handleSearchInput(val: any) {
+  handleSearchInput() {
     // console.log("search start" + val);
     this.appService.filteredRecipies = this.appService.allRecepies.filter(
       (el: any) => {
-        return el.title.toLowerCase().includes(val.toLowerCase());
+        return el.title
+          .toLowerCase()
+          .includes(this.searchKeyword.toLowerCase());
       }
     );
     setTimeout(() => {
@@ -49,6 +52,8 @@ export class SearchHomeComponent implements OnInit {
   }
 
   handleSearchBlur() {
-    this.appService.isSearching.next(false);
+    if (!this.searchKeyword) {
+      this.appService.isSearching.next(false);
+    }
   }
 }

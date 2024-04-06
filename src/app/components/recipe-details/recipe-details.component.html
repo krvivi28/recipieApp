@@ -1,24 +1,42 @@
-<!-- <p>recipe-details works!</p>
-{{data.id}} -->
-<h2 mat-dialog-title>{{recipeDetails.title}}</h2>
-<mat-dialog-content class="mat-typography">
-  <h3>Description</h3>
-  <p>{{recipeDetails.description}}</p>
+<div class="grid grid-cols-2 gap-4 max-w-[100%]">
+  <div>
+    <div class="flex flex-col justify-center items-center p-5">
+      <h1 class="my-2 font-bold text-xl">{{ recipeDetails.title }}</h1>
+      <mat-dialog-content class="mat-typography">
+        <h3 class="font-semibold text-lg">Description:</h3>
+        <p>{{ recipeDetails.description }}</p>
+        <br />
 
-  <h3>category &amp; {{recipeDetails.category}}</h3>
-  <div><img width="400" height="400" [src]="recipeDetails.imageUrl" alt=""></div>
-<p>servings:{{recipeDetails.servings}}</p>
+        <h3 class="font-medium">Category- {{ recipeDetails.category }}</h3>
+        <div class="border-gray-500 rounded">
+          <img
+            width="400"
+            height="400"
+            [src]="recipeDetails.imageUrl"
+            alt=""
+            class="border-4 border-gray-900"
+          />
+        </div>
+        <br />
+        <p class="font-medium">Servings: {{ recipeDetails.servings }}</p>
 
-<div>
-<p>ingredients</p>
-<ul>
-  @for (el of recipeDetails.ingredients; track $index) {
-  <li>{{el.name}}{{el.quantity}}{{el.notes}}</li>
-}
-</ul>
+        <div>
+          <p class="text-lg font-black">Ingredients</p>
+          <ul>
+            @for (el of recipeDetails.ingredients; track $index) {
+            <li>{{ el.name }}{{ el.quantity }}{{ el.notes }}</li>
+            }
+          </ul>
+        </div>
+      </mat-dialog-content>
+    </div>
+  </div>
+
+  <div>Chef</div>
 </div>
 
-</mat-dialog-content>
-<mat-dialog-actions align="end">
-  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Close</button>
-</mat-dialog-actions>
+<div>
+  <mat-dialog-actions align="end">
+    <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Close</button>
+  </mat-dialog-actions>
+</div>

@@ -41,7 +41,7 @@
     <div>
       <mat-form-field class="border-t border-solid border-blue-800">
         <mat-label>Search for best recipes</mat-label>
-        <input #searchInput matInput (input)="handleSearchInput(searchInput.value)" (blur)="handleSearchBlur()" />
+        <input [(ngModel)]="searchKeyword" matInput (input)="handleSearchInput()" (blur)="handleSearchBlur()" />
       </mat-form-field>
       <button
         style="margin-top: -22px; height: 57px; border-radius: 0 !important"
