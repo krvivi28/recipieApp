@@ -22,7 +22,6 @@ export class SearchHomeComponent implements OnInit {
   constructor(public appService: AppService) {}
   ngOnInit(): void {
     this.options = citiesList;
-
     this.filteredOptions = this.cityControl.valueChanges.pipe(
       startWith(""),
       map((value) => this._filter(value || ""))
@@ -35,5 +34,21 @@ export class SearchHomeComponent implements OnInit {
     return this.options.filter((option) =>
       option.toLowerCase().includes(filterValue)
     );
+  }
+
+  handleSearchInput(val: any) {
+    console.log("search start" + val);
+    this.appService.filteredRecipies = this.appService.allRecepies.filter(
+      (el: any) => {
+        return el.title.toLowerCase().includes(val.toLowerCase());
+      }
+    );
+    setTimeout(() => {
+      this.appService.isSearching.next(true);
+    }, 50);
+  }
+
+  handleSearchBlur() {
+    this.appService.isSearching.next(false);
   }
 }

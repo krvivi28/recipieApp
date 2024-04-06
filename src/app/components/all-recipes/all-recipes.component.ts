@@ -22,8 +22,7 @@ import { LoaderService } from "../../services/loader.service";
   styleUrl: "./all-recipes.component.css",
 })
 export class AllRecipesComponent implements OnInit {
-  allRecepies = [];
-  @ViewChild("form") newRecipeForm!: TemplateRef<any>;
+  isSearching: boolean = false;
 
   constructor(
     private dialog: MatDialog,
@@ -33,26 +32,8 @@ export class AllRecipesComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    // this.fetchAllRecipies();
-  }
-
-  // fetchAllRecipies() {
-  //   this.loaderService.isLoading.set(true);
-  //   const path = this.appService.baseUrl + `/recipies`;
-  //   this.http.get(path).subscribe({
-  //     next:(res: any) => {
-  //       console.log(res);
-  //       this.allRecepies = res;
-  //        this.loaderService.isLoading.set(false);
-  //     },
-  //     error:(err) => {
-  //        this.loaderService.isLoading.set(false);
-  //     }
-  //   }
-  //   );
-  // }
-
-  openDialog() {
-    this.dialog.open(this.newRecipeForm);
+    this.appService.isSearching.subscribe((res) => {
+      this.isSearching = res;
+    });
   }
 }

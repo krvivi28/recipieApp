@@ -3,6 +3,7 @@ import { Injectable } from "@angular/core";
 import { LoaderService } from "./loader.service";
 import { ToasterService } from "./toaster.service";
 import { citiesList } from "./appConstatnts";
+import { BehaviorSubject } from "rxjs";
 
 @Injectable({
   providedIn: "root",
@@ -14,6 +15,8 @@ export class AppService {
   citiesList = citiesList;
   path!: string;
   allRecepies: [] = [];
+  isSearching = new BehaviorSubject<boolean>(false);
+  filteredRecipies = [];
 
   constructor(
     private loaderService: LoaderService,
@@ -31,6 +34,10 @@ export class AppService {
 
   deleteServiceRequest() {
     return this.http.delete(this.path);
+  }
+
+  putServiceRequest(requestBody: any) {
+    return this.http.put(this.path, requestBody);
   }
 
   fetchAllRecipies() {

@@ -6,6 +6,7 @@ import { LoaderService } from "../../services/loader.service";
 import { ToasterService } from "../../services/toaster.service";
 import { MatDialog } from "@angular/material/dialog";
 import { RecipeDetailsComponent } from "../recipe-details/recipe-details.component";
+import { RecipeFormComponent } from "../recipe-form/recipe-form.component";
 
 @Component({
   selector: "app-recipe-card",
@@ -60,8 +61,20 @@ export class RecipeCardComponent implements OnChanges {
   }
 
   editRecipie(id: any) {
-    this.dialog.open(RecipeDetailsComponent, {
+    const dialogRef = this.dialog.open(RecipeFormComponent, {
       data: { id },
     });
+
+    dialogRef.afterClosed().subscribe((res) => {
+      this.appService.fetchAllRecipies();
+    });
+  }
+
+  shareOnWhatsApp() {
+    const message: string = "Check out this amazing link!";
+    const url: string = "https://cubastion.com/";
+    const encodedMessage: string = encodeURIComponent(message + " " + url);
+    const whatsappUrl: string = `https://wa.me/?text=${encodedMessage}`;
+    window.open(whatsappUrl, "_blank");
   }
 }

@@ -19,7 +19,7 @@ export class ToasterService {
     this.config.panelClass = ["snackbar-container"];
     this.config.verticalPosition = "top";
     this.config.horizontalPosition = "right";
-    this.config.duration = 3000;
+    this.config.duration = 5000;
   }
 
   error(message: string) {

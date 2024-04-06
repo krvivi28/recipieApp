@@ -4,10 +4,16 @@
 <div
   class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-4 bg-slate-950"
 >
-  @for (recipe of appService.allRecepies.reverse(); track $index) {
+  @if (!isSearching) { @for (recipe of appService.allRecepies.reverse(); track
+  $index) {
   <app-recipe-card
     style="min-height: 320px"
     [recipe]="recipe"
   ></app-recipe-card>
-  }
+  } } @else { @for (recipe of appService.filteredRecipies; track $index) {
+  <app-recipe-card
+    style="min-height: 320px"
+    [recipe]="recipe"
+  ></app-recipe-card>
+  } }
 </div>

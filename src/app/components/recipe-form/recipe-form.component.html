@@ -1,4 +1,4 @@
-  <h2 mat-dialog-title>Add New Recipie</h2>
+  <h2 mat-dialog-title>{{data?'Update Recipie':'Add New Recipie'}} </h2>
   <mat-dialog-content class="mat-typography">
     <div class="">
       <form [formGroup]="recipieForm">
@@ -177,12 +177,12 @@
   </mat-dialog-content>
   <mat-dialog-actions align="end">
     <button
-      (click)="handleAddRecipe()"
+      (click)="handleAddUpdateRecipe()"
       mat-raised-button
       color="primary"
       cdkFocusInitial
     >
-      Add
+      {{data?'Update':'Add'}}
     </button>
     <button mat-button mat-dialog-close>Cancel</button>
   </mat-dialog-actions>
