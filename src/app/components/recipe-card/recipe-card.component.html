@@ -13,11 +13,11 @@
         <mat-icon>delete_forever</mat-icon>
         <span>Delete</span>
       </button>
-      <button mat-menu-item>
+      <button (click)="editRecipie(recipe.id)" mat-menu-item>
         <mat-icon>edit</mat-icon>
         <span>Edit</span>
       </button>
-      <button mat-menu-item>
+      <button (click)="viewRecipieDetails(recipe.id)" mat-menu-item>
         <mat-icon>visibility</mat-icon>
         <span>Details</span>
       </button>
@@ -45,7 +45,7 @@
     <mat-card-actions>
       <div class="w-full flex items-center justify-between">
         <div>
-          <button mat-button>VIEW</button> <button mat-button>SHARE</button>
+          <button (click)="viewRecipieDetails(recipe.id)" mat-button>VIEW</button> <button mat-button>SHARE</button>
         </div>
 
         <!-- <span class="relative flex h-3 w-3">

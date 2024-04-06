@@ -4,6 +4,8 @@ import { CommonModule } from "@angular/common";
 import { AppService } from "../../services/app.service";
 import { LoaderService } from "../../services/loader.service";
 import { ToasterService } from "../../services/toaster.service";
+import { MatDialog } from "@angular/material/dialog";
+import { RecipeDetailsComponent } from "../recipe-details/recipe-details.component";
 
 @Component({
   selector: "app-recipe-card",
@@ -16,7 +18,8 @@ export class RecipeCardComponent implements OnChanges {
   constructor(
     private appService: AppService,
     private loader: LoaderService,
-    private toaster: ToasterService
+    private toaster: ToasterService,
+    private dialog: MatDialog
   ) {}
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -48,5 +51,17 @@ export class RecipeCardComponent implements OnChanges {
         },
       });
     }
+  }
+
+  viewRecipieDetails(id: any) {
+    this.dialog.open(RecipeDetailsComponent, {
+      data: { id },
+    });
+  }
+
+  editRecipie(id: any) {
+    this.dialog.open(RecipeDetailsComponent, {
+      data: { id },
+    });
   }
 }
